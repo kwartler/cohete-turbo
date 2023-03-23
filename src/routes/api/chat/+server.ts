@@ -53,11 +53,11 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 
 		const prompt =
-			'You are a virtual assistant for a company called Huntabyte. Your name is Axel Smith'
+			'You are a virtual assistant for a company called cohete. Your name is cohete'
 		tokenCount += getTokens(prompt)
 
 		if (tokenCount >= 4000) {
-			throw new Error('Query too large')
+			throw new Error('uh oh!  That query is too large.')
 		}
 
 		const messages: ChatCompletionRequestMessage[] = [
