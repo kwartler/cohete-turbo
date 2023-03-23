@@ -88,8 +88,7 @@
 	>
 		<input type="text" class="input input-bordered w-full" bind:value={query} />
 		<!-- <button type="submit" class="btn btn-accent"> Send </button> -->
-		<button type="submit" class="btn btn-accent">
-		<button type="submit"><img src="https://github.com/kwartler/cohete-turbo/raw/main/static/favicon.png" alt="send" />
+    <button type="submit" class="btn btn-accent"> Send </button>
 		</button>
 	</form>
 </div>
